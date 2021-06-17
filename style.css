@@ -1,0 +1,193 @@
+body {
+    margin: 0%;
+    background-color:maroon; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top right,purple,black) ;
+    background-attachment: fixed;
+    padding: 0;
+    overflow: hidden;
+    
+
+   } 
+.vl {
+    border-left: 1px solid goldenrod;
+    height: 420px;
+    top: 0;
+    left: 3%;
+    position: absolute;
+  
+    }
+.v2 {
+    border-left: 5px dotted gold;
+    height: 420px;
+    top: 0;
+    left: 2.85%;
+    position: absolute;
+    }
+.v3 {
+    border-left: 5px dotted goldenrod;
+    height: 500px;
+    top: 0;
+    left: 9%;
+    position: absolute;
+    
+    }
+.v4 {
+    border-left: 5px dotted palevioletred;
+    height: 300px;
+    top: 0;
+    left: 18%;
+    position: absolute;
+    }
+.v5 {
+    border-left: 5px dotted goldenrod;
+    height: 300px;
+    top: 0;
+    right: 3%;
+    position: absolute;
+              
+    }
+.v6 {
+    border-left: 5px dotted goldenrod;
+    height: 500px;
+    top: 0;
+    right: 7%;
+    position: absolute;
+                  
+    }
+.v7 {
+    border-left: 5px dotted magenta;
+    height: 100px;
+    top: 0;
+    right: 12%;
+    position: absolute;
+                      
+    }
+
+.c1{
+    top:500px;
+    left:20%;
+    background-color: lightblue;
+
+}
+.c2{
+    top:400px;
+    right:20%;
+    background-color: pink;
+
+}
+.c3{
+    top:100px;
+    left:95%;
+    background-color: rgb(175, 36, 43);
+
+}
+.c4{
+    top:350px;
+    right:90%;
+    background-color: yellow;
+
+}
+.c5{
+    top:50px;
+    left:30%;
+    background-color: yellowgreen;
+
+}
+.c6{
+    top:100px;
+    right:28%;
+    background-color: pink;
+
+}
+.crc{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    filter: blur(10px);
+    
+    
+}
+
+
+.circle {
+                
+top: 14%;
+left:30%;
+position: absolute;
+height: 450px;
+width: 450px;
+background-color:maroon;
+border-radius: 50%;
+border: 5px solid chocolate;
+box-shadow: 0 20px 100px rgba(0, 0, 0, 0.5);
+                    }
+.circle:before{
+    content: '';
+    position: absolute;
+    border: 8px dotted silver;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+    filter: blur(0.5px);
+
+}
+
+.light{
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to top right,chocolate,black);
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    box-shadow: 0 20px 100px rgba(0, 0, 0, 0.5);
+    
+
+}
+.light:before
+{
+    content: '';
+    position: absolute;
+    top: -20px;    
+    width: 100%;
+    height: 40px;
+    background: silver;
+    border-radius: 50%;
+    border: 5px solid chocolate;
+    box-sizing: border-box;
+    
+    
+}
+.light:after
+{
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 45%;
+    width: 20px;
+    height: 70px;
+    border-radius: 50%;
+    background :white;
+    box-shadow: yellow;
+    filter: blur(2px);
+    
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    text-align: center;
+    font-style: italic;
+    font-size: 70px;
+    text-shadow: 0 15px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 ;
+    padding: 0;
+}
+
+
+
+
